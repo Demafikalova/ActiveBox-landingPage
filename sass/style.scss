@@ -1,0 +1,21 @@
+@import "header";
+@import "info-section";
+@import "gallery";
+@import "crew-section";
+@import "slider";
+@import "footer";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial;
+}
+.fas{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: red;
+}
+.hidden{
+    display: none;
+}

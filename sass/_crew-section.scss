@@ -1,0 +1,31 @@
+#crew{
+    .row{
+        .col-12{
+            .card{
+                p{
+                    font-size: .7em;
+                }
+                h5{
+                    span{
+                        font-size: .6em;
+                        color: red;
+                    }
+                }
+                .card-footer{
+                    div{
+                        padding: 8px;
+                        margin: 1px;
+                        border: 1px solid lightgray;
+                        border-radius: 5px;
+                        &:hover{
+                            background-color: red;
+                            .fab{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

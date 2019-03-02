@@ -1,0 +1,27 @@
+#footer{
+    box-sizing: border-box;
+    background-color: lighten(#2b2e4a, 8%);
+    color: #fff;
+    .col-md-4 {
+        p{
+            font-size: .7em;
+        }
+        .socials{
+            div{
+                padding: 5px;
+                border: 1px solid white;
+                &:hover{
+                    background-color: red;
+                    border: 1px solid red;
+                }
+            }
+        }
+    }
+}
+.copy{
+    background-color: #53354a;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-weight: bold;
+}
